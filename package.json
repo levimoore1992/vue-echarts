@@ -1,0 +1,31 @@
+{
+  "name": "vue-echarts-directive",
+  "version": "0.5.0",
+  "description": "A simple yet flexible custom directive for using Echarts in Vue.js(v2.x.x) apps.",
+  "author": "Chris Pan <chrispan.pt@gmail.com>",
+  "main": "./directives/echarts.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panteng/vue-echarts.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "prod": "webpack --mode=production"
+  },
+  "dependencies": {
+    "echarts": "^4.x.x",
+    "vue": "^2.x.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
